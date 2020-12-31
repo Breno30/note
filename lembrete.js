@@ -14,7 +14,7 @@ function buscar_lembrete() {
     }
 
 }
-
+/*
 ref.on("value", function (snapshot) {
     snapshot.forEach(function (childSnapshot) {
         var data = childSnapshot.val();
@@ -23,7 +23,7 @@ ref.on("value", function (snapshot) {
     })
 })
 
-
+*/
 function salvar() {
 
     var firebaseRef = firebase.database().ref();
