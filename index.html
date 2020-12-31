@@ -3,15 +3,21 @@
     <title>NOTE</title>
 </head>
 <body>
+    
+    <!-- monta o corpo da pagina -->
     <center>
         <div style="padding: 1vh;">
-
+            <!-- botões salvar e cancelar -->
             <input type="submit" onclick="salvar()" value=" SALVAR " />
             <input type="submit" onclick="buscar_lembrete()" value=" CANCELAR " />
         </div>
+        
+            <!-- area de exibição do lembrete -->
             <textarea id="lembrete" style="width: 80vw; height: 80vw;"></textarea>
         
     </center>
+    
+    <!-- conecta ao banco de dados -->
     <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
     
     <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
@@ -34,6 +40,7 @@
 
 
     </script>
+
 
     <script src="lembrete.js"></script>
 </body>
