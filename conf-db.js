@@ -1,9 +1,3 @@
-    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
-    
-    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
-
-
-
 
     <script>
 
