@@ -9,7 +9,7 @@ function buscar_lembrete() {
         document.getElementById('lembrete').value = data.val();
     }
     function errData(err) {
-        console.log('Error: ');
+        console.log('Erro: ');
         console.log(err);
     }
 
