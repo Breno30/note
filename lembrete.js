@@ -14,16 +14,8 @@ function buscar_lembrete() {
     }
 
 }
-/*
-ref.on("value", function (snapshot) {
-    snapshot.forEach(function (childSnapshot) {
-        var data = childSnapshot.val();
 
-        console.log(data);
-    })
-})
 
-*/
 function salvar() {
 
     var firebaseRef = firebase.database().ref();
